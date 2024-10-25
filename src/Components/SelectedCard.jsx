@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import DeleteForeverIcon from '@mui/icons-material/DeleteForever';
+import MyContext from '../utils/MyContext';
 export default function SelectedCard({player}) {
 
+    const {handleRemovePlayer} = useContext(MyContext);
+
   return (
-    <div className='flex justify-between items-center border-2 rounded-xl p-4'>
+    <div className='flex justify-between border-[1px] items-center rounded-xl p-4 shadow-md'>
         <div className='flex  item-center gap-2'>
         <div className=''>
             <img className='w-20 h-20 object-cover rounded-xl' src={player.image} alt="" />
@@ -14,7 +17,7 @@ export default function SelectedCard({player}) {
         </div>
         </div>
         <div>
-            <button className='btn'><DeleteForeverIcon style={{color:"red"}}/></button>
+            <button onClick={()=>handleRemovePlayer(player.id)} className='btn'><DeleteForeverIcon style={{color:"red"}}/></button>
         </div>
     </div>
   )

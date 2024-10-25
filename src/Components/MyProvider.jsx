@@ -40,6 +40,15 @@ export default function MyProvider({children}) {
         }
     }
 
+    const handleRemovePlayer = (id) => {
+       
+        const filteredPlayers = selectedPlayers.filter((item) => item.id !== id);
+        setSelectedPlayers(filteredPlayers);
+        toast.warning(`Player removed`);
+        
+       
+    };
+
     useEffect(()=>{
         fetch('players.json')
         .then(response => response.json())
@@ -53,7 +62,7 @@ const addCoin = ()=>{
 }
 
   return (
-    <MyContext.Provider value={{price, addCoin, alignment, handleChange, players, selectedPlayers, handlePlayerSelect}}>
+    <MyContext.Provider value={{price, addCoin, alignment, handleChange, players, selectedPlayers, handlePlayerSelect, handleRemovePlayer}}>
             {children}
     </MyContext.Provider>
   )

@@ -44,7 +44,7 @@ export default function PlayerCard({player}) {
         <p className="font-medium text-gray-800">
           Price: <span className="font-semibold">${price}</span>
         </p>
-        <button onClick={()=>handlePlayerSelect(player)} className='btn px-2 py-0 bg-transparent font-normal border-2'>Choose Player</button>
+        <button onClick={()=>handlePlayerSelect(player)} className='btn px-2 py-0 bg-transparent font-normal border-2 hover:bg-yellow-200'>Choose Player</button>
       </div>
     </div>
   </div>
