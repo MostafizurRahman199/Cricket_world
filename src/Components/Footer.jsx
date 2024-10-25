@@ -20,8 +20,8 @@ const style ={
             <p>Get the latest updates and news right in your inbox!</p>
           </div>
 
-          <div className="md:flex justify-center items-center ">
-          <input type="text" placeholder="Enter your Email." className="input input-bordered w-full max-w-xs" />
+          <div className="md:flex justify-center items-center w-full">
+          <input type="text" placeholder="Enter your Email." className="input input-bordered w-full max-w-lg" />
             <button className="btn btn-primary join-item  border-none bg-gradient-to-r from-rose-400  to-yellow-400 text-black" style={{ boxShadow: 'inset 4px 4px 20px 0px rgba(19, 19, 19, 0.3)'}}>Subscribe</button>
           </div>
           
