@@ -37,33 +37,33 @@ const style ={
         <footer className="w-full footer bg-[#06091A] text-white  sm:p-4 md:p-10 flex flex-wrap justify-items-center  md:flex justify-around">
                     <nav>
                         <h6 className="footer-title">Services</h6>
-                        <a className="link link-hover">Branding</a>
-                        <a className="link link-hover">Design</a>
-                        <a className="link link-hover">Marketing</a>
-                        <a className="link link-hover">Advertisement</a>
+                        <a className="link link-hover" style={{color:'rgba(255, 255, 255, 0.49)'}}>Branding</a>
+                        <a className="link link-hover" style={{color:'rgba(255, 255, 255, 0.49)'}}>Design</a>
+                        <a className="link link-hover" style={{color:'rgba(255, 255, 255, 0.49)'}}>Marketing</a>
+                        <a className="link link-hover" style={{color:'rgba(255, 255, 255, 0.49)'}}>Advertisement</a>
                     </nav>
                     <nav>
-                        <h6 className="footer-title">Company</h6>
-                        <a className="link link-hover">About us</a>
-                        <a className="link link-hover">Contact</a>
-                        <a className="link link-hover">Jobs</a>
-                        <a className="link link-hover">Press kit</a>
+                        <h6 className="footer-title" style={{color:'rgba(255, 255, 255, 0.49)'}}>Company</h6>
+                        <a className="link link-hover" style={{color:'rgba(255, 255, 255, 0.49)'}}>About us</a>
+                        <a className="link link-hover" style={{color:'rgba(255, 255, 255, 0.49)'}}>Contact</a>
+                        <a className="link link-hover" style={{color:'rgba(255, 255, 255, 0.49)'}}>Jobs</a>
+                        <a className="link link-hover" style={{color:'rgba(255, 255, 255, 0.49)'}}>Press kit</a>
                     </nav>
                     <nav>
-                        <h6 className="footer-title">Legal</h6>
-                        <a className="link link-hover">Terms of use</a>
-                        <a className="link link-hover">Privacy policy</a>
-                        <a className="link link-hover">Cookie policy</a>
+                        <h6 className="footer-title" style={{color:'rgba(255, 255, 255, 0.49)'}}>Legal</h6>
+                        <a className="link link-hover" style={{color:'rgba(255, 255, 255, 0.49)'}}>Terms of use</a>
+                        <a className="link link-hover" style={{color:'rgba(255, 255, 255, 0.49)'}}>Privacy policy</a>
+                        <a className="link link-hover" style={{color:'rgba(255, 255, 255, 0.49)'}}>Cookie policy</a>
                     </nav>
                     <form className="">
                         <h6 className="footer-title">Newsletter</h6>
                         <fieldset className="form-control ">
                         <label className="label">
-                            <span className="label-text text-white">Enter your email address</span>
+                            <span className="label-text text-white">Subscribe to our newsletter for the latest updates.</span>
                         </label>
                         <div className="space-y-4 md:space-y-0 md:flex justify-center items-center gap-4">
 
-                                <input type="text" placeholder="Enter your Email." className="w-5/6 input input-bordered  max-w-xs" />
+                                <input type="text" placeholder="Enter your Email." className="w-5/6 input input-bordered  max-w-xs text-black" />
 
                                         <button className="btn btn-primary join-item  border-none bg-gradient-to-r from-rose-400  to-yellow-400 text-black" style={{ boxShadow: 'inset 4px 4px 20px 0px rgba(19, 19, 19, 0.3)'}}>Subscribe</button>
                             </div>
@@ -71,6 +71,11 @@ const style ={
                     </form>
         </footer>
         </div>
+      <div className="w-full bg-[#06091A] flex justify-center items-center  text-white   py-8 " style={{
+   borderTop: '1px solid rgba(255, 255, 255, 0.15)',
+}}>
+            <p style={{color:'rgba(255, 255, 255, 0.49)'}}> @2024 Your Company All Rights Reserved.</p>
+      </div>
     </div>
 
   </div>
