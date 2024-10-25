@@ -5,6 +5,7 @@ import './App.css'
 import Navbar from './Components/Navbar'
 import MyProvider from './Components/MyProvider'
 import Banner from './Components/Banner'
+import Main from './Components/Main'
 
 function App() {
   
@@ -14,6 +15,7 @@ function App() {
    <MyProvider>
         <Navbar/>
         <Banner/>
+        <Main/>
    </MyProvider>
   </div>
   )

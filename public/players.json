@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "name": "Viral Kohli",
+    "country": "India",
+    "role": "All-Rounder",
+    "rating": "Left-Hand-Bat",
+    "battingStyle": "Left-Hand-Bat",
+    "price": 1500,
+    "image": "https://www.livemint.com/lm-img/img/2024/05/16/1600x900/Virat_Kohli_1712150617454_1715842899316.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Steve Smith",
+    "country": "Australia",
+    "role": "Batsman",
+    "rating": "Right-Hand-Bat",
+    "battingStyle": "Right-Hand-Bat",
+    "price": 1200,
+    "image": "https://api.bdcrictime.com/steve-smith-07_03_2022.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Kane Williamson",
+    "country": "New Zealand",
+    "role": "Batsman",
+    "rating": "Right-Hand-Bat",
+    "battingStyle": "Right-Hand-Bat",
+    "price": 1100,
+    "image": "https://icdn.guerillacricket.com/wp-content/uploads/2023/11/Screenshot-Capture-2023-11-18-02-52-42.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Ben Stokes",
+    "country": "England",
+    "role": "All-Rounder",
+    "rating": "Left-Hand-Bat",
+    "battingStyle": "Left-Hand-Bat",
+    "price": 1300,
+    "image": "https://criczine.cricdiction.com/wp-content/uploads/2024/04/Ben-Stokes.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Babar Azam",
+    "country": "Pakistan",
+    "role": "Batsman",
+    "rating": "Right-Hand-Bat",
+    "battingStyle": "Right-Hand-Bat",
+    "price": 1400,
+    "image": "https://crictoday.com/wp-content/uploads/2023/04/Untitled-design.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Jasprit Bumrah",
+    "country": "India",
+    "role": "Bowler",
+    "rating": "Right-Hand-Bowl",
+    "battingStyle": "Right-Hand-Bowl",
+    "price": 1000,
+    "image": "https://c.cricketpakistan.com.pk/images/posts/cover_1723445307FotoJet---2024-08-12T114119.517.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Mitchell Starc",
+    "country": "Australia",
+    "role": "Bowler",
+    "rating": "Left-Hand-Bowl",
+    "battingStyle": "Left-Hand-Bowl",
+    "price": 1250,
+    "image": "https://api.bdcrictime.com/mitchell-starc-biography-21_06_2024.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Rashid Khan",
+    "country": "Afghanistan",
+    "role": "Bowler",
+    "rating": "Right-Hand-Bowl",
+    "battingStyle": "Right-Hand-Bowl",
+    "price": 1050,
+    "image": "https://www.hindustantimes.com/ht-img/img/2024/06/23/1600x900/Rashid_Khan_1719152768377_1719152768704.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Quinton de Kock",
+    "country": "South Africa",
+    "role": "Wicketkeeper",
+    "rating": "Left-Hand-Bat",
+    "battingStyle": "Left-Hand-Bat",
+    "price": 9500,
+    "image": "https://images.news18.com/ibnlive/uploads/2023/11/quinton-de-kock-century-world-cup-ap-2023-11-3fcb8019e5a268d9f8ca97c341ea3d92-16x9.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Trent Boult",
+    "country": "New Zealand",
+    "role": "Bowler",
+    "rating": "Left-Hand-Bowl",
+    "battingStyle": "Left-Hand-Bowl",
+    "price": 1100,
+    "image": "https://tds-images.thedailystar.net/sites/default/files/styles/very_big_201/public/feature/images/trent_boult_0_0.jpg"
+  }
+]
