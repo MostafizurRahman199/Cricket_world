@@ -22,7 +22,7 @@ export default function PlayerCard({player}) {
             <p className="text-sm">{country}</p>
           </div>
         </div>
-        <div className="px-2 py-1 bg-gray-200 rounded-full text-xs font-medium text-gray-700">
+        <div className="px-2 py-1 bg-gray-200 rounded-2xl text-xs font-medium text-gray-700 text-center">
           {role}
         </div>
       </div>

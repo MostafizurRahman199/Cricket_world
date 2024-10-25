@@ -1,4 +1,26 @@
 [
+
+  {
+    "id": 11,
+    "name": "Mahmudullah Riyad",
+    "country": "Bangladesh",
+    "role": "All-Rounder",
+    "rating": "Right-Hand-Bat",
+    "battingStyle": "Right-Hand-Bat",
+    "price": 1200,
+    "image": "https://crictoday.com/wp-content/uploads/2023/06/mahmudullah-1200.jpg"
+},
+{
+    "id": 12,
+    "name": "Mushfiqur Rahim",
+    "country": "Bangladesh",
+    "role": "Wicketkeeper-Batsman",
+    "rating": "Right-Hand-Bat",
+    "battingStyle": "Right-Hand-Bat",
+    "price": 1400,
+    "image": "https://api.bdcrictime.com/mushfiqur-rahim-15_03_2022.jpg"
+},
+
   {
     "id": 1,
     "name": "Viral Kohli",
@@ -27,7 +49,7 @@
     "rating": "Right-Hand-Bat",
     "battingStyle": "Right-Hand-Bat",
     "price": 1100,
-    "image": "https://icdn.guerillacricket.com/wp-content/uploads/2023/11/Screenshot-Capture-2023-11-18-02-52-42.jpg"
+    "image": "https://static.cricketaddictor.com/images/2024/KaneW.webp?q=80"
   },
   {
     "id": 4,
