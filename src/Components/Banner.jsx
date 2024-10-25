@@ -26,13 +26,13 @@ export default function Banner() {
         pauseOnHover
       />
       
-      <div className='flex flex-col justify-center items-center gap-6 border-2 my-8 py-12 rounded-xl bg-black bg-[url("banner_bg.png")] bg-cover bg-center w-full'>
+      <div className='flex flex-col justify-center items-center gap-6 border-2 my-8 py-12 rounded-xl bg-black bg-[url("banner_bg.png")] bg-cover bg-center w-full sm:px-2 md:px-2'>
         <div className=' flex justify-center'>
           <img className='w-40' src="banner-main.png" alt="" />
         </div>
         <div className='flex flex-col justify-start items-center gap-6'>
-          <h1 className='text-center text-3xl font-bold text-white'>Assemble Your Ultimate Dream 11 Cricket Team</h1>
-          <p className='text-white'>Beyond Boundaries Beyond Limits</p>
+          <h1 className='text-center text-xl md:text-3xl font-bold text-white'>Assemble Your Ultimate Dream 11 Cricket Team</h1>
+          <p className='text-white text-center'>Beyond Boundaries Beyond Limits</p>
           <div className='p-2 border-2 border-[#E7FE29] rounded-2xl'>
             <button 
               onClick={notify} 

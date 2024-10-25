@@ -12,7 +12,7 @@ export default function PlayerCard({player}) {
     <img className="w-full h-48 object-cover rounded-t-md" src={image} alt="Player" />
 
   
-    <div className="px-4 py-4">
+    <div className="px-1 md:px-4 py-4">
   
       <div className="flex justify-between items-center">
         <div>
