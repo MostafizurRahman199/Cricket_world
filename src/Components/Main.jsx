@@ -10,7 +10,7 @@ export default function Main() {
   const { alignment, handleChange,selectedPlayers  } = useContext(MyContext);
 
   return (
-    <div className="w-full border-2 border-red-500">
+    <div className="w-full   pb-56">
       <div className="space-y-4 sm:flex justify-between items-center ">
       
             {alignment === 'available_players' ?  <h1 className="text-2xl font-bold">Available Players</h1> :  <h1 className="text-2xl font-bold">Selected Players ({selectedPlayers.length}/6)</h1>}
