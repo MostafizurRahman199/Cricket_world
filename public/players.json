@@ -1,32 +1,30 @@
 [
-
   {
     "id": 11,
     "name": "Mahmudullah Riyad",
     "country": "Bangladesh",
     "role": "All-Rounder",
-    "rating": "Right-Hand-Bat",
+    "rating": 4,
     "battingStyle": "Right-Hand-Bat",
     "price": 1200,
     "image": "https://crictoday.com/wp-content/uploads/2023/06/mahmudullah-1200.jpg"
-},
-{
+  },
+  {
     "id": 12,
     "name": "Mushfiqur Rahim",
     "country": "Bangladesh",
     "role": "Wicketkeeper-Batsman",
-    "rating": "Right-Hand-Bat",
+    "rating": 4,
     "battingStyle": "Right-Hand-Bat",
     "price": 1400,
     "image": "https://api.bdcrictime.com/mushfiqur-rahim-15_03_2022.jpg"
-},
-
+  },
   {
     "id": 1,
     "name": "Viral Kohli",
     "country": "India",
     "role": "All-Rounder",
-    "rating": "Left-Hand-Bat",
+    "rating": 5,
     "battingStyle": "Left-Hand-Bat",
     "price": 1500,
     "image": "https://www.livemint.com/lm-img/img/2024/05/16/1600x900/Virat_Kohli_1712150617454_1715842899316.jpg"
@@ -36,7 +34,7 @@
     "name": "Steve Smith",
     "country": "Australia",
     "role": "Batsman",
-    "rating": "Right-Hand-Bat",
+    "rating": 4,
     "battingStyle": "Right-Hand-Bat",
     "price": 1200,
     "image": "https://api.bdcrictime.com/steve-smith-07_03_2022.jpg"
@@ -46,7 +44,7 @@
     "name": "Kane Williamson",
     "country": "New Zealand",
     "role": "Batsman",
-    "rating": "Right-Hand-Bat",
+    "rating": 4,
     "battingStyle": "Right-Hand-Bat",
     "price": 1100,
     "image": "https://static.cricketaddictor.com/images/2024/KaneW.webp?q=80"
@@ -56,7 +54,7 @@
     "name": "Ben Stokes",
     "country": "England",
     "role": "All-Rounder",
-    "rating": "Left-Hand-Bat",
+    "rating": 5,
     "battingStyle": "Left-Hand-Bat",
     "price": 1300,
     "image": "https://criczine.cricdiction.com/wp-content/uploads/2024/04/Ben-Stokes.jpg"
@@ -66,7 +64,7 @@
     "name": "Babar Azam",
     "country": "Pakistan",
     "role": "Batsman",
-    "rating": "Right-Hand-Bat",
+    "rating": 5,
     "battingStyle": "Right-Hand-Bat",
     "price": 1400,
     "image": "https://crictoday.com/wp-content/uploads/2023/04/Untitled-design.jpg"
@@ -76,7 +74,7 @@
     "name": "Jasprit Bumrah",
     "country": "India",
     "role": "Bowler",
-    "rating": "Right-Hand-Bowl",
+    "rating": 3,
     "battingStyle": "Right-Hand-Bowl",
     "price": 1000,
     "image": "https://c.cricketpakistan.com.pk/images/posts/cover_1723445307FotoJet---2024-08-12T114119.517.jpg"
@@ -86,7 +84,7 @@
     "name": "Mitchell Starc",
     "country": "Australia",
     "role": "Bowler",
-    "rating": "Left-Hand-Bowl",
+    "rating": 4,
     "battingStyle": "Left-Hand-Bowl",
     "price": 1250,
     "image": "https://www.hindustantimes.com/ht-img/img/2024/09/28/1600x900/CRICKET-ODI-ENG-AUS--83_1727489179813_1727489192257.JPG"
@@ -96,7 +94,7 @@
     "name": "Rashid Khan",
     "country": "Afghanistan",
     "role": "Bowler",
-    "rating": "Right-Hand-Bowl",
+    "rating": 4,
     "battingStyle": "Right-Hand-Bowl",
     "price": 1050,
     "image": "https://www.hindustantimes.com/ht-img/img/2024/06/23/1600x900/Rashid_Khan_1719152768377_1719152768704.jpg"
@@ -106,7 +104,7 @@
     "name": "Quinton de Kock",
     "country": "South Africa",
     "role": "Wicketkeeper",
-    "rating": "Left-Hand-Bat",
+    "rating": 4,
     "battingStyle": "Left-Hand-Bat",
     "price": 9500,
     "image": "https://images.news18.com/ibnlive/uploads/2023/11/quinton-de-kock-century-world-cup-ap-2023-11-3fcb8019e5a268d9f8ca97c341ea3d92-16x9.jpg"
@@ -116,7 +114,7 @@
     "name": "Trent Boult",
     "country": "New Zealand",
     "role": "Bowler",
-    "rating": "Left-Hand-Bowl",
+    "rating": 3,
     "battingStyle": "Left-Hand-Bowl",
     "price": 1100,
     "image": "https://tds-images.thedailystar.net/sites/default/files/styles/very_big_201/public/feature/images/trent_boult_0_0.jpg"

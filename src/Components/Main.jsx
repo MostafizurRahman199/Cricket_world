@@ -10,7 +10,7 @@ export default function Main() {
   const { alignment, handleChange,selectedPlayers  } = useContext(MyContext);
 
   return (
-    <div className="w-full   pb-56">
+    <div className="w-full pb-56">
       <div className="space-y-4 sm:flex justify-between items-center ">
       
             {alignment === 'available_players' ?  <h1 className="text-2xl font-bold">Available Players</h1> :  <h1 className="text-2xl font-bold">Selected Players ({selectedPlayers.length}/6)</h1>}
@@ -31,7 +31,7 @@ export default function Main() {
                       background: 'linear-gradient(to right, #fb7185, rgba(255, 255, 0, 0.5))',
                         fontWeight: "bold",
                         color: "black",
-                        border: '2px solid black',
+                        border: '1px solid black',
                        
                     
                         borderRadius: "10px 0 0 10px", // Ensures selected state maintains border-radius
@@ -50,7 +50,7 @@ export default function Main() {
                       background: 'linear-gradient(to right, #fb7185, rgba(255, 255, 0, 0.5))',
                         fontWeight: "bold",
                         color: "black",
-                        border: '2px solid black',
+                        border: '1px solid black',
                        
                         borderRadius: "0 10px 10px 0", // Ensures selected state maintains border-radius
                         },

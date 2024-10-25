@@ -26,7 +26,7 @@ export default function Banner() {
         pauseOnHover
       />
       
-      <div className='flex flex-col justify-center items-center gap-6 border-2 my-8 py-12 rounded-xl bg-black bg-[url("banner_bg.png")] bg-cover bg-center w-full sm:px-2 md:px-2'>
+      <div className='flex flex-col justify-center items-center gap-6 border-2 my-8 py-12 rounded-xl bg-black bg-[url("banner_bg.png")] bg-cover bg-center w-full sm:px-2 md:px-2 mt-24'>
         <div className=' flex justify-center'>
           <img className='w-40' src="banner-main.png" alt="" />
         </div>

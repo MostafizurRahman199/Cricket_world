@@ -3,7 +3,7 @@ import MyContext from '../utils/MyContext'
 import { toast } from 'react-toastify';
 
 export default function MyProvider({children}) {
-    const [price, setPrice] = useState(100);
+    const [price, setPrice] = useState(0);
     const [alignment, setAlignment] = useState('available_players');
     const [players, setPlayers] = useState([]);
     const [selectedPlayers, setSelectedPlayers] = useState([]);
