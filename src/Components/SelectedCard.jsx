@@ -17,7 +17,7 @@ export default function SelectedCard({player}) {
         </div>
         </div>
         <div>
-            <button onClick={()=>handleRemovePlayer(player.id)} className='btn'><DeleteForeverIcon style={{color:"red"}}/></button>
+            <button onClick={()=>handleRemovePlayer(player)} className='btn'><DeleteForeverIcon style={{color:"red"}}/></button>
         </div>
     </div>
   )

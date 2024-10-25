@@ -40,10 +40,11 @@ export default function MyProvider({children}) {
         }
     }
 
-    const handleRemovePlayer = (id) => {
+    const handleRemovePlayer = (player) => {
        
-        const filteredPlayers = selectedPlayers.filter((item) => item.id !== id);
+        const filteredPlayers = selectedPlayers.filter((item) => item.id !== player.id);
         setSelectedPlayers(filteredPlayers);
+        setPrice((previousPrice)=> (previousPrice + parseFloat(player.price)));
         toast.warning(`Player removed`);
         
        
