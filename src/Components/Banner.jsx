@@ -33,10 +33,10 @@ export default function Banner() {
         <div className='flex flex-col justify-start items-center gap-6'>
           <h1 className='text-center text-xl md:text-3xl font-bold text-white'>Assemble Your Ultimate Dream 11 Cricket Team</h1>
           <p className='text-white text-center'>Beyond Boundaries Beyond Limits</p>
-          <div className='p-2 border-2 border-[#E7FE29] rounded-2xl'>
+          <div className='p-2 border-2 border-rose-400 rounded-2xl'>
             <button 
               onClick={notify} 
-              className='btn bg-[#E7FE29] hover:bg-yellow-500 rounded-xl text-black border-none text-bold'>
+              className='btn bg-gradient-to-r from-rose-400  to-yellow-400 hover:from-yellow-400 hover:to-rose-400 text-black rounded-xl  border-none text-bold'>
               Claim Free Credit
             </button>
           </div>

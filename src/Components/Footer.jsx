@@ -12,9 +12,9 @@ const style ={
   return (
   <div className="bg-[#06091A] ">
      
-     <div  className="w-10/12 mx-auto rounded-2xl p-4 border-2 relative -top-28" style={{ backgroundColor: 'rgba(255, 255, 255, 0.15)'}}>
+     <div  className="w-10/12 mx-auto rounded-2xl p-4 border-2 relative -top-28 " style={{ backgroundColor: 'rgba(255, 255, 255, 0.15)'}}>
       <div >
-        <footer className="footer footer-center bg-base-200 text-base-content p-2 sm:p-4  md:p-10 rounded-2xl">
+        <footer className="footer footer-center bg-base-200 text-base-content p-2 sm:p-4  md:p-10 rounded-2xl bg-[url('banner_bg.png')] bg-cover bg-center">
           <div className="flex flex-col gap-4">
             <h1 className="text-xl md:text-2xl font-bold">Subscribe to our Newsletter</h1>
             <p>Get the latest updates and news right in your inbox!</p>

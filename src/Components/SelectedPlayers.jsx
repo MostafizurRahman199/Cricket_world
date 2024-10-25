@@ -8,7 +8,7 @@ import ToggleButton from "@mui/material/ToggleButton";
 import ToggleButtonGroup from "@mui/material/ToggleButtonGroup";
 
 export default function SelectedPlayers() {
-
+    
 const {selectedPlayers, alignment, handleChange} = useContext(MyContext);
 
   return (
@@ -17,7 +17,7 @@ const {selectedPlayers, alignment, handleChange} = useContext(MyContext);
             selectedPlayers.map((player)=><SelectedCard player={player}/>)
         }
 
-        <div className='w-fit p-2  rounded-xl border-2 border-black'>
+        <div className='w-fit p-2  rounded-xl border-2 border-[#fb7185]'>
         <ToggleButtonGroup
                     color="warning"
                     value={alignment}
@@ -30,8 +30,9 @@ const {selectedPlayers, alignment, handleChange} = useContext(MyContext);
     sx={{
       textTransform: "none", // Prevents uppercase text
       borderRadius: "10px 0 0 10px", // Applies left-side border radius
-      backgroundColor: "yellow",
+     background: 'linear-gradient(to right, #fb7185, rgba(255, 255, 0, 0.5))',
       fontWeight: "bold",
+      border: '2px solid white',
       color: "black",
       borderRadius: "10px", // Ensures selected state maintains border-radius
       '&:hover': {
